@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-/* ************************************
+/* *************************************
    * Program to choose powerball numbers; 8 numbers between 1 and 45.
    * Aims to maximize winnings by not sharing any wins with other players. As people often choose
    * last weeks numbers or birthdates, the program asks the user to enter last weeks numbers and
