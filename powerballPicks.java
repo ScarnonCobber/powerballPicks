@@ -1,4 +1,3 @@
-import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
 import java.util.Scanner;
 import java.util.Arrays;
 /* ************************************
@@ -89,8 +88,10 @@ public class powerballPicks {
         }
         System.out.println();
         System.out.println("GOOD LUCK!");
+
+        scanner.close();
     }
-    
+
     // Method for checking if value is in an array
     public static boolean contains(final int[] arr, final int key){
         return Arrays.stream(arr).anyMatch(i -> i == key);
